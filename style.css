@@ -60,7 +60,7 @@ nav {
 
 
 #banner {
-    height: 100vh;
+    height: 90vh;
     background-image: url("./images/hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -70,6 +70,7 @@ nav {
 
 
 .banner-heading h1 {
+    
     font-size: 42px;
     font-weight: bold;
     line-height: 1.3;
@@ -116,4 +117,68 @@ nav {
     color: white;
 }
 
+/* Notice Section */
+
+#notes{
+    padding: 70px 0;
+}
+
+#notes .note-heading{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 40px;
+}
+
+.note-heading h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+    
+}
+
+ .note-heading p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 30px;
+}
+
+#notes .note-container{
+
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.note-container .note-card{
+ 
+    width: 250px;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 25, 49, 0.08);
+    
+    
+}
+
+
+.note-card img{
+    width:45px;
+    margin: bottom 16px;
+    background-color: #F95555
+     
+}
+
+.note-card h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 8px;
+
+}
+
+.note-card p {
+    font-size: 14px;
+    color: #627382;
+}
 
