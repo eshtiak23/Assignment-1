@@ -13,6 +13,49 @@
   font-optical-sizing: auto;
 }
 
+
+
+/* Hover Section */
+
+
+/* Navbar Button */
+.btn a,.btn button {
+    transition: all 0.3s ease;
+}
+
+/* Primary Green Buttons */
+.btn a:hover,
+.btn button:hover {
+    background-color: #3f7f58;
+    box-shadow: 0 8px 20px rgba(74, 143, 99, 0.35);
+    transform: translateY(-2px);
+}
+
+/* Banner Outline Button (See How It Works) */
+#banner .btn:last-child:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    border-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Access Section Button */
+#access .btn button:hover {
+    background-color: #3f7f58;
+    box-shadow: 0 10px 25px rgba(74, 143, 99, 0.4);
+    transform: translateY(-3px);
+}
+
+/* Remove jump on click */
+.btn a:active,
+.btn button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+
+/* Header Sections */
+
 header {
     background-color: #ffffff;
 }
@@ -65,6 +108,8 @@ nav {
     color: #000000;
 
 }
+
+
 
 .btn a {
     background-color: #4a8f63;
@@ -189,7 +234,7 @@ nav {
 
 .note-card img{
     width:45px;
-    margin: bottom 16px;
+    margin-bottom:  16px;
     background-color: #F95555
      
 }
@@ -328,13 +373,58 @@ nav {
     font-weight: 600;
 }
 
-.access .btn button:hover{
-    background-color: #3f7f58;
-    transform: translateY(-2px);
-}
-
-
 .access-container > p {
     font-size: 16px;
     color: #627382;
 }
+
+
+/* <!-- Footer SECtion --> */
+
+#footer {
+    background-color: #041a2e;
+    padding: 40px 0 20px;
+}
+
+.footer-logo, .social {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-logo {
+    padding-left: 60px;
+}
+
+.social {
+    text-align: right;
+    padding-right: 60px;
+}
+
+.social h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.social img {
+    width: 24px;
+    margin-left: 10px;
+}
+
+#footer hr {
+    width: 90%;
+    margin: 30px auto;
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: 14px;
+    color: #cbd5e1;
+}
+
+
+
+
