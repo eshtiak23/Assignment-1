@@ -82,6 +82,11 @@ header {
 
 /* Main Styles */
 
+
+
+/* NavBer Section */
+
+
 nav {
     max-width: 1140px;
     margin: 0 auto;
@@ -109,8 +114,6 @@ nav {
 
 }
 
-
-
 .btn a {
     background-color: #4a8f63;
     color: #fff;
@@ -119,6 +122,7 @@ nav {
     border-radius: 6px;
     font-weight: 600;
 }
+
 
 /* Banner */
 
@@ -132,6 +136,19 @@ nav {
     padding-top: 120px;
 }
 
+#banner h4 {
+    
+  display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #3f8f63;
+    padding: 8px 16px;
+    margin: 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 .banner-heading h1 {
     
