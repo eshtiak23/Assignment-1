@@ -17,6 +17,25 @@ header {
     background-color: #ffffff;
 }
 
+.btn button ,.btn button a {
+    background-color: #4a8f63;
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #3f7f58;
+    transform: translateY(-2px);
+}
 
 /* Main Styles */
 
@@ -263,3 +282,59 @@ nav {
     margin-top: 2px;           
 }
 
+/* Access Section */
+
+
+
+#access {
+    padding: 120px 0;
+}
+
+.access-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #f7f6f2; 
+    border-radius: 12px;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.container-heading h2{
+    font-size: 36px;
+    color: #001931;
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.container-heading p{
+    font-size: 16px;
+    color: #627382;
+    max-width: 620px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+
+.access .btn{
+    margin-bottom: 14px;
+}
+
+.access .btn button {
+   background-color: #4a8f63;
+    color: #fff;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.access .btn button:hover{
+    background-color: #3f7f58;
+    transform: translateY(-2px);
+}
+
+
+.access-container > p {
+    font-size: 16px;
+    color: #627382;
+}
