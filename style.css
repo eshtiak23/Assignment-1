@@ -162,6 +162,11 @@ nav {
     
 }
 
+.note-container .note-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 25, 49, 0.12);
+}
+
 
 .note-card img{
     width:45px;
@@ -180,5 +185,81 @@ nav {
 .note-card p {
     font-size: 14px;
     color: #627382;
+}
+
+/* Solution Section */
+
+#solution {
+    padding: 31px 0;
+}
+
+#solution .solution-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    
+
+}
+.solu-image {
+    width: 45%;
+}
+
+.solu-image img{
+    width: 100%;
+}
+
+#solution .solu-info{
+    width: 55%;
+    padding-left: 55px;
+}
+
+.solu-info h6{
+    font-size: 16px;
+    color:#469165 ;
+    margin-bottom: 14px;
+}
+.solu-info h2{
+    font-size: 48px; 
+    color: #001931;
+    margin-bottom: 13px; ;
+}
+
+.solu-info p{
+    font-size: 16px; 
+    color: #627382;
+    margin-bottom: 13px;
+}
+
+.solu-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.solu-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+    font-size: 16.5px;
+    color: #001931;
+}
+
+.solu-list li::before {
+    content: "✓";
+    width: 22px;
+    height: 22px;
+    background-color: #22c55e;   
+    color: #ffffff;             
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    flex-shrink: 0;
+    margin-top: 2px;           
 }
 
